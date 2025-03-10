@@ -1,0 +1,116 @@
+/* Josh's Custom CSS Reset - https://www.joshwcomeau.com/css/custom-css-reset/ */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img {
+    max-width: 100%; /* do not display:block for img! */
+}
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+#root,
+#__next {
+    isolation: isolate;
+}
+
+@import url(https://fonts.bunny.net/css?family=inria-serif:300,300i,400,400i,700);
+
+:root {
+    --snap-blue: #2E3343;
+    --snap-green: #6D977F;
+    --snap-beige: #E8E4DC;
+    --snap-pink: #FF82A9;
+    --white-color: #fff;
+}
+body {
+    font-family: 'Inria Serif', serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--snap-green);
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Inria Serif', serif;
+    font-weight: 700;
+    font-style: bold;
+    color: var(--snap-beige);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        padding: 0.5em 0;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    footer {
+        padding: 0.5em 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: var(--snap-pink);
+    }
+
+    header {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
