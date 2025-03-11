@@ -84,6 +84,7 @@ body {
 .green {
     background-color: var(--snap-green);
     color: var(--snap-beige);
+    margin-bottom: 4rem;
 }
 
 .blue {
@@ -161,20 +162,23 @@ li {
 .blue ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    gap: 15px;
     padding: 20px 0;
 }
 
 .blue li {
-    width: calc(50% - 5px);
+    width: auto;
+    flex: 1 1 calc(30% - 15px);
     text-align: center;
 }
 
 .blue a {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+
 }
 
 .beige a {
@@ -188,6 +192,14 @@ li {
     align-items: center;
     justify-content: left;
     gap: 10px;
+}
+
+.green ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 15px;
+    padding: 20px 0;
 }
 
 a {
@@ -220,6 +232,10 @@ a:hover {
     
     h2 {
         font-size: 1.8rem;
+    }
+
+    .blue li {
+        flex: 1 1 calc(40% - 15px);
     }
 }
 
