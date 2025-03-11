@@ -41,7 +41,8 @@ h6 {
     isolation: isolate;
 }
 
-@import url('https://fonts.bunny.net/css?family=inria-serif:300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
 
 :root {
     --snap-blue: #2E3343;
@@ -58,7 +59,7 @@ h6 {
 }
 
 body {
-    font-family: 'Inria Serif', serif;
+    font-family: 'Inclusive Sans', sans-serif;
     background-color: var(--snap-beige);
     color: var(--snap-beige);
     display: flex;
