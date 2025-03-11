@@ -177,6 +177,11 @@ li {
     padding: 10px;
 }
 
+.beige a {
+    color: var(--snap-blue);
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
 
 a {
     color: var(--snap-beige);
