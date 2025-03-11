@@ -60,7 +60,8 @@ h6 {
 
 body {
     font-family: 'Inclusive Sans', sans-serif;
-    background-color: var(--snap-beige);
+    background: rgb(232,228,220);
+    background: linear-gradient(191deg, rgba(232,228,220,1) 46%, rgba(232,228,250,1) 100%); 
     color: var(--snap-beige);
     display: flex;
     justify-content: center;
