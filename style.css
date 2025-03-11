@@ -183,6 +183,13 @@ li {
     font-size: 1.2rem;
 }
 
+.beige p {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
 a {
     color: var(--snap-beige);
     text-decoration: none;
