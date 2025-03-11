@@ -219,6 +219,20 @@ a:hover {
     color: var(--snap-blue);
 }
 
+footer {
+    background-color: var(--snap-blue); 
+    color: var(--white);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+
 
 
 @media (max-width: 768px) {
