@@ -47,7 +47,7 @@ h6 {
 :root {
     --snap-blue: #2E3343;
     --snap-green: #6D977F;
-    --snap-beige: #E8E4DC;
+    --snap-beige: #d9d3c8;
     --snap-pink: #FF82A9;
     --white: #fff;
 }
@@ -60,9 +60,8 @@ h6 {
 
 body {
     font-family: 'Inclusive Sans', sans-serif;
-    background: rgb(232,228,220);
-    background: linear-gradient(191deg, rgba(232,228,220,1) 46%, rgba(232,228,250,1) 100%); 
-    color: var(--snap-beige);
+    background: var(--snap-beige);
+    background: linear-gradient(191deg, var(--snap-beige) 46%, rgba(255, 130, 169, 0.2) 100%);
     display: flex;
     justify-content: center;
 }
@@ -104,6 +103,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    color: var(--snap-beige);
 }
 
 p {
@@ -180,7 +180,10 @@ li {
     width: 100%;
     padding: 10px 15px;
     font-size: 1rem;
+}
 
+.blue p {
+    color: var(--snap-beige);
 }
 
 .transparent a {
