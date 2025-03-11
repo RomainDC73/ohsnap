@@ -48,7 +48,7 @@ h6 {
     --snap-green: #6D977F;
     --snap-beige: #E8E4DC;
     --snap-pink: #FF82A9;
-    --white-color: #fff;
+    --white: #fff;
 }
 
 * {
@@ -95,8 +95,8 @@ h1 {
     font-size: 10rem;
     line-height: 0.9;
     font-weight: 700;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
     color: var(--snap-green);
 }
 
@@ -117,7 +117,7 @@ p span {
 
 @keyframes  jump {
 	100% {
-		top: -10px;
+		top: -5px;
 	}
 }
 
@@ -158,24 +158,45 @@ li {
     margin: 10px 0;
 }
 
+.blue ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.blue li {
+    width: calc(50% - 5px);
+    text-align: center;
+}
+
+.blue a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+
 a {
-    color: var(--snap-blue);
+    color: var(--snap-beige);
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--snap-pink);
     border-radius: 3px;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    border: solid 1px var(--snap-pink);
+    transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 a:hover {
-    background-color: var(--snap-blue);
-    transform: scale(1.1);
-    color: var(--snap-pink);
+    background-color: var(--snap-pink);
+    transform: scale(1.02);
+    color: var(--snap-blue);
 }
 
-/* Responsive */
+
+
 @media (max-width: 768px) {
     .container {
         max-width: 90%;
