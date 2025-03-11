@@ -78,8 +78,7 @@ body {
     border-radius: 5px;
 }
 
-.beige {
-    background-color: var(--snap-beige);
+.transparent {
     color: var(--snap-blue);
 }
 
@@ -184,13 +183,13 @@ li {
 
 }
 
-.beige a {
+.transparent a {
     color: var(--snap-blue);
     margin-left: 8px;
     font-size: 1.2rem;
 }
 
-.beige p {
+.transparent p {
     display: flex;
     align-items: center;
     justify-content: left;
