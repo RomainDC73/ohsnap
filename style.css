@@ -258,11 +258,20 @@ a:hover {
 
     h1 {
         margin-top: 0rem;
-        font-size: 8rem;
+        font-size: 7rem;
     }
     
     h2 {
         font-size: 1.5rem;
+    }
+
+    .green ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left;
+        column-gap: 5px;
+        padding: 20px 0;
     }
 
 }
