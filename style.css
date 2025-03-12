@@ -74,7 +74,7 @@ body {
 .block {
     padding: 40px 20px;
     text-align: left;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .transparent {
@@ -85,11 +85,13 @@ body {
     background-color: var(--snap-green);
     color: var(--snap-beige);
     margin-bottom: 1rem;
+    box-shadow: 7px 7px 0 var(--snap-blue);
 }
 
 .blue {
     background-color: var(--snap-blue);
     color: var(--white-color);
+    box-shadow: 7px 7px 0 var(--snap-green);
 }
 
 h1 {
@@ -99,6 +101,7 @@ h1 {
     margin-top: 1rem;
     margin-bottom: 3rem;
     color: var(--snap-green);
+    text-shadow: 7px 7px 0 var(--snap-pink);
 }
 
 h2 {
@@ -113,6 +116,7 @@ p {
 
 p span {
 	position: relative;
+    font-weight: 700;
     color: var(--snap-pink);
 	top: 0;
 	animation: jump 0.5s ease infinite alternate;
